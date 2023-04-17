@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b030bddc-56a8-497a-8df3-ec17c8e3ece5)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 172.72 16.51) (size 58.42 59.69) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0c4a1cfc-f4f2-4cf1-8cce-d176dfbc5bfa)
+    (property "Sheetname" "USB & Power" (at 172.72 15.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB.kicad_sch" (at 172.72 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "pi0ii040"
+        (path "/b030bddc-56a8-497a-8df3-ec17c8e3ece5" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 95.25 16.51) (size 59.69 59.69) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 21ec419c-bb32-4b85-bca5-950752fa8657)
+    (property "Sheetname" "MCU Components" (at 95.25 15.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 95.25 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "pi0ii040"
+        (path "/b030bddc-56a8-497a-8df3-ec17c8e3ece5" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 15.24 99.06) (size 59.69 58.42) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2fbf78f8-73f0-4f62-afa7-da3d07a42383)
+    (property "Sheetname" "Misc" (at 15.24 98.3484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Misc.kicad_sch" (at 15.24 158.0646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "pi0ii040"
+        (path "/b030bddc-56a8-497a-8df3-ec17c8e3ece5" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 15.24 16.51) (size 59.69 58.42) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b41b100d-d1fd-4f80-9eb9-889b3d3b8a0a)
+    (property "Sheetname" "Switch Matrix" (at 15.24 15.7984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Switch_Matrix.kicad_sch" (at 15.24 75.5146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "pi0ii040"
+        (path "/b030bddc-56a8-497a-8df3-ec17c8e3ece5" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
