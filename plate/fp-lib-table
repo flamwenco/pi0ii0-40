@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "M0ii040関連KaWaii40")(type "KiCad")(uri "/Users/dan/Developer/pi0ii040/M0ii040関連KaWaii40")(options "")(descr ""))
+  (lib (name "Keybage_MX_Cutout")(type "KiCad")(uri "/Users/dan/Developer/pi0ii040/KeybageLibrary/footprints/Keybage_MX_Cutout.pretty")(options "")(descr ""))
+)
